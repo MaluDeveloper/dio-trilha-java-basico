@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class ContaTerminal {
 
     public static void main(String[] args) throws Exception {
-         Locale.setDefault(Locale.US);
+        
+        Locale.setDefault(Locale.US);
         // Inicialização do Scanner para captura de entrada do usuário
         Scanner scanner = new Scanner(System.in);
 
